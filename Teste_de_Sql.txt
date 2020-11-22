@@ -1,0 +1,43 @@
+1. Com base no modelo acima, escreva um comando SQL que liste a quantidade de processos por Status com sua descrição.
+
+SELECT 
+PR.IDSTATUS AS ID_STATUS, 
+ST.DSSTATUS AS DESCR_STATUS,
+COUNT(*) AS TOTAL
+FROM TB_PROCESSO PR
+INNER JOIN TB_STATUS ST ON PR.IDSTATUS = ST.IDSTATUS
+GROUP BY PR.IDSTATUS, ST.DSSTATUS
+ORDER BY TOTAL DESC, ST.DSSTATUS ASC
+
+
+
+2. Com base no modelo acima, construa um comando SQL que liste a maior data de andamento por número de processo, com processos encerrados no ano de 2013.
+
+
+SELECT
+MAX(AD.DTANDAMENTO) AS MAIOR_DATA_ANDAMENTO
+FROM TB_PROCESSO PR
+INNER JOIN TB_ANDAMENTO AD ON PR.IDPROCESSO = AD.IDPROCESSO
+WHERE YEAR(DTENCERRAMENTO) = 2013
+
+
+
+
+
+3. Com base no modelo acima, construa um comando SQL que liste a quantidade de Data de Encerramento agrupada por ela mesma onde a quantidade da contagem seja maior que 5.
+
+SELECT
+PR.DT_ENCERRAMENTO,
+COUNT(*) AS TOTAL
+FROM TB_PROCESSO PR
+INNER JOIN TB_ANDAMENTO AD ON PR.IDPROCESSO = AD.IDPROCESSO
+GROUP BY PR.DTENCERRAMENTO
+HAVING COUNT(*) > 5
+
+
+
+
+4. Possuímos um número de identificação do processo, onde o mesmo contém 12 caracteres com zero à esquerda, contudo nosso modelo e dados ele é apresentado como bigint. Como fazer para apresenta-lo com 12 caracteres considerando os zeros a esquerda?
+
+SELECT REPLICATE('0',12 - LEN(CONVERT(CHAR,NROPROCESSO))) + CONVERT(CHAR,NROPROCESSO) AS NROPROCESSO_OK
+FROM TB_PROCESSO

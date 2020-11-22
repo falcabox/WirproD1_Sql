@@ -1,0 +1,12 @@
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\bin\Debug\ServicoLeituraMoedas.exe.config
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\bin\Debug\ServicoLeituraMoedas.exe
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\bin\Debug\ServicoLeituraMoedas.pdb
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\bin\Debug\Newtonsoft.Json.dll
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\bin\Debug\WebDriver.dll
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\bin\Debug\Newtonsoft.Json.xml
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\bin\Debug\WebDriver.xml
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\obj\Debug\ServicoLeituraMoedas.csprojAssemblyReference.cache
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\obj\Debug\ServicoLeituraMoedas.csproj.CoreCompileInputs.cache
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\obj\Debug\ServicoLeituraMoedas.csproj.CopyComplete
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\obj\Debug\ServicoLeituraMoedas.exe
+C:\Falcari_Testes\WirproServico_D1\ServicoLeituraMoedas\ServicoLeituraMoedas\obj\Debug\ServicoLeituraMoedas.pdb
